@@ -1,0 +1,4 @@
+        <button oneclick= "changeMyColor ('red'); ">red </button>
+        <button oneclick= "changeMyColor ('green'); ">green </button>
+        <button oneclick= "changeMyColor ('blue'); ">blue </button>
+        <button oneclick= "changeMyColor ('orange'); ">orange </button>

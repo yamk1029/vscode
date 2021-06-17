@@ -1,2 +1,5 @@
-document.getElementById("merodesh").innerText="maya meri maya";
-document.getElementById("merodesh").innerHTML="<img src= 'image/bid.png'>"
+function changeMyColor(color)
+{
+    var myp = document.getElementById('merodesh');
+    myp.style.backgroundColor = color;
+}
