@@ -1,8 +1,64 @@
+$('#btnhide').click(function(){
+    $('#merodesh').hide();
+});
+
+
+$('#btnshow').click(function(){
+    $('#merodesh').show();
+});
+
+
+
+$('#btn').click(function(){
+    $('#merodesh').toggle();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function changeMyColor(color)
-/*{
+{
     var myp = document.getElementById('merodesh');
     myp.style.backgroundColor = color;
-}*/
+}
 
 function onoff(btn)
 {
