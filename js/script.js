@@ -1,11 +1,64 @@
-$('#btn').click(function (){
-  $('#mero').fadeIn(5000);
+$('#mydiv').mouseenter(function () {
+  $(this).css('background-color', 'red');
+  $(this).css('border-radius', '20px');
 });
-$('#btn2').click(function (){
-  $('#mero').fadeOut(5000);
+
+$('#mydiv').mouseleave(function () {
+  $(this).css('background-color', 'peru');
+  $(this).css('border-radius', '0px');
+});
+
+$('#mydiv').dblclick(function () {
+  $(this).css('background-color', 'green');
+  $(this).css('color','black');
+});
+
+$('#mydiv').contextmenu(function () {
+  $(this).css('background-color', 'yellow');
+ 
+});
+
+$('body').keydown(function () {
+  $(this).css('background-color', 'skyblue');
 });
 
 
+$('body').keyup(function () {
+  $(this).css('background-color', 'blue');
+});
+
+$('#fname').focus(function () {
+  
+  $(this).css({
+      'border': '2px solid red',
+      'width': '500px',
+      'height':'30px',
+  });
+});
+
+$('#fname').blur(function () {
+
+  $(this).css({
+      'border': '2px solid green',
+      'border-radius':'10px',
+      'width': '500px',
+      'height': '30px',
+  });
+});
+
+$('#country').change(function () {
+  $(this).css('background-color', 'yellow');
+})
+
+
+$('#fname').select(function () {
+
+  $(this).css('background-color','red');
+});
+
+$('#myform').submit(function () {
+  console.log("my form is submited");
+})
 
 
 
